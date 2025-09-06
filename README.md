@@ -29,8 +29,9 @@ git clone https://github.com/aikansh008/Notes-Application-Flutter.git
 
 ```
 cd Notes-Application-Flutter
+
 2. Install Dependencies
-Install all required Flutter packages:
+   Install all required Flutter packages:
 ```bash
 flutter pub get
 ```
