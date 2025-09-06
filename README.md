@@ -44,7 +44,7 @@ flutter run --release
 ```
 Note: Running with --release ensures the app runs without debugging enabled.
 
-Project Structure
+### Project Structure
 
 lib/
 
@@ -63,7 +63,7 @@ main.dart → App entry point
 pubspec.yaml → Project dependencies and assets
 
 
-Dependencies
+### Dependencies
 
 Key packages used:
 
