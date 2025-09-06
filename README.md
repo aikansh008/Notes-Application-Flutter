@@ -43,3 +43,36 @@ To run the app on your connected device or emulator:
 flutter run --release
 ```
 Note: Running with --release ensures the app runs without debugging enabled.
+
+Project Structure
+
+lib/
+
+features/auth/ → Authentication screens (Login/Signup)
+
+features/notes/ → Notes UI and management
+
+features/offlinesupport/ → SQLite database & sync service
+
+features/setting/ → Settings screen
+
+core/theme/ → App themes and color definitions
+
+main.dart → App entry point
+
+pubspec.yaml → Project dependencies and assets
+
+
+Dependencies
+
+Key packages used:
+
+flutter → Flutter SDK
+
+connectivity_plus → Check internet connectivity
+
+shared_preferences → Store JWT token and app data
+
+sqflite → SQLite database support
+
+path_provider → Access device paths
